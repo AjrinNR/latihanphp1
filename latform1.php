@@ -22,7 +22,9 @@
         $n = $_POST['n'];
         $a = $_POST['a'];
         echo "Nama Anda : <b>$nama<br>";
-        echo "Nama Anda : <b>$n<br>";
-        echo "Nama Anda : <b>$a<br>";
+        echo "Nilai 1 : <b>$n<br>";
+        echo "Nilai 2 : <b>$a<br>";
+        $rata = ($n+$a)/2;
+        echo "Rata rata nilai anda : $rata";
 }
 ?>
