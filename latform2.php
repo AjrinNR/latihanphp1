@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Form Register</title>
-</head>
+                </head>
 <body>
     <FORM action ="proseslat2.php" METHOD="POST" NAME="input">
            Nama : <input type="text" name="nama"><br><br>
