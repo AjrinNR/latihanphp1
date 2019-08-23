@@ -31,14 +31,15 @@
         echo "Nama Ibu       : " . $ni . "<br>";
         echo "Pekerjaan Ibu  : " . $pi . "<br>";
         echo "Agama          : " . $agama . "<br>";
+        echo "Hobby          : ";
     }if (isset($_POST['ng'])) {
-        echo "Hobby : " . $_POST['ng'] . "<br>";
+        echo "- " . $_POST['ng'] . "<br>";
     }if (isset($_POST['nf'])) {
-        echo "Hobby : " . $_POST['nf'] . "<br>";
+        echo "-     " . $_POST['nf'] . "<br>";
     }if (isset($_POST['tidur'])) {
-        echo "Hobby : " . $_POST['tidur'] . "<br>";
+        echo "- " . $_POST['tidur'] . "<br>";
     }if (isset($_POST['musik'])) {
-        echo "Hobby : " . $_POST['musik'] . "<br>";
+        echo "- " . $_POST['musik'] . "<br>";
     }
 
 ?>
