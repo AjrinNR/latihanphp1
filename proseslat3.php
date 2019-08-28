@@ -42,4 +42,4 @@
         echo "- " . $_POST['musik'] . "<br>";
     }
 
-?>
+?>echo "Harga Barang : $har.<br>";
