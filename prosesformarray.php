@@ -5,7 +5,7 @@
 
         foreach ($nama as $data => $val ) {
             echo "Nama Saya : " . $nama[$data] . 
-                 "Kelas : " . $kelas[$data] . "<br>";
+                 " Kelas : " . $kelas[$data] . "<br>";
         }
 
     }

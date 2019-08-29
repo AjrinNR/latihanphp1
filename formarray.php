@@ -17,7 +17,7 @@
                $jmlform = $_GET ['jml'];
                for ($i=1; $i <= $jmlform; $i++) { 
                     ?>
-                    <form action="prosesformarray.php">
+                    <form action="prosesformarray.php" method = "post">
                         <label for="">Nama</label>
                         <input type="text" name = "nama[]">
                         <label for="">Kelas</label>
