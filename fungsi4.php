@@ -1,6 +1,6 @@
 <?php
     function tambah_string($str){
-        $str = $str . "Jakarta";
+        $str = $str . " , Jakarta";
         return $str;
     }
     $str = "Universitas Budi Luhur";
