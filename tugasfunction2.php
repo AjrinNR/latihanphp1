@@ -14,11 +14,11 @@
         </legend>
     <form action="" method="post">
         <label for="">Nama</label>
-        <input type="text" name = "n"><br><br>
+        <input type="text" name = "n" required><br><br>
         <label for="">Berat Badan</label>
-        <input type="number" name = "bb"> Kg <br><br>
+        <input type="number" name = "bb" required> Kg <br><br>
         <label for="">Tinggi Badan</label>
-        <input type="number" name = "tb"> Cm<br>
+        <input type="number" name = "tb" required> Cm<br>
         <input type="submit" name = "submit" value ="Simpan">
     </form>
     </fieldset>
@@ -31,7 +31,7 @@
 
             function badan($bb,$tb)
             {
-                if (($bb >= 60) && ($tb >= 165)) {
+                if (($bb > 50) && ($bb < 60) && ($tb >= 165)) {
                   $a = "Anda diterima";  
                 }else{
                     $a = "Anda tidak diterima";
@@ -40,8 +40,8 @@
             }
             $ty = badan($berat,$tinggi);
             echo "Nama anda : $nama <br>";
-            echo "Berat badan anda : $berat <br>";
-            echo "Tinggi badan anda : $tinggi <br>";
+            echo "Berat badan anda : $berat Kg<br>";
+            echo "Tinggi badan anda : $tinggi Cm<br>";
             echo "Status anda : $ty";
         }
     ?>
